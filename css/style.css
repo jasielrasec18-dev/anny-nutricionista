@@ -226,9 +226,11 @@ header.scrolled {
 header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 3rem;
   padding-block: 10px;
 }
+
 .logo {
   display: inline-flex;
   align-items: center;
