@@ -744,6 +744,21 @@ footer a:hover {
   color: rgba(255, 255, 255, 0.4);
 }
 
+.footer-credit {
+  display: block !important;
+  margin-top: 6px;
+}
+
+.footer-credit a {
+  color: rgba(255, 255, 255, 0.4);
+  text-underline-offset: 2px;
+  transition: color 0.2s;
+}
+
+.footer-credit a:hover {
+  color: var(--gold);
+}
+
 @media (max-width: 700px) {
   footer .container {
     grid-template-columns: 1fr;
