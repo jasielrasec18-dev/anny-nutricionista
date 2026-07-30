@@ -438,6 +438,12 @@ body.nav-open {
   }
 }
 
+@media (max-width: 760px) {
+  .hero-visual {
+    display: none;
+  }
+}
+
 .sobre {
   background: var(--bg-alt);
 }
