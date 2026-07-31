@@ -4,7 +4,7 @@ window.addEventListener(
   () => {
     header.classList.toggle("scrolled", window.scrollY > 12);
   },
-  { passive: true }
+  { passive: true },
 );
 
 const navToggle = document.getElementById("nav-toggle");
@@ -39,7 +39,7 @@ const observer = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.15 }
+  { threshold: 0.15 },
 );
 
 revealEls.forEach((el) => observer.observe(el));
